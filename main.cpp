@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    // Needed so QSettings can store the high score
+    // Needed for QSettings and for the leaderboard database path
     QCoreApplication::setOrganizationName("BrickBreakerQt");
     QCoreApplication::setApplicationName("BrickBreaker");
 
